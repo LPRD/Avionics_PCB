@@ -11192,14 +11192,14 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="JP5" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="134.62" x2="144.78" y2="137.16" width="0.1524" layer="91"/>
-<label x="144.78" y="147.32" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+<label x="144.78" y="137.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SCL" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="134.62" x2="147.32" y2="144.78" width="0.1524" layer="91"/>
-<label x="147.32" y="142.24" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+<wire x1="147.32" y1="134.62" x2="147.32" y2="137.16" width="0.1524" layer="91"/>
+<label x="147.32" y="137.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="D31" class="0">
