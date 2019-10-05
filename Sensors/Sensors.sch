@@ -11368,7 +11368,7 @@ NC_3</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="P4"/>
 <wire x1="2.54" y1="99.06" x2="5.08" y2="99.06" width="0.1524" layer="91"/>
-<label x="15.24" y="99.06" size="1.778" layer="95" align="bottom-right"/>
+<label x="5.08" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="E-/BLACK" class="0">
@@ -11380,7 +11380,7 @@ NC_3</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="P3"/>
 <wire x1="2.54" y1="96.52" x2="5.08" y2="96.52" width="0.1524" layer="91"/>
-<label x="17.78" y="96.52" size="1.778" layer="95" align="bottom-right"/>
+<label x="5.08" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A-/WHITE" class="0">
@@ -11392,7 +11392,7 @@ NC_3</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="P2"/>
 <wire x1="2.54" y1="91.44" x2="5.08" y2="91.44" width="0.1524" layer="91"/>
-<label x="40.64" y="91.44" size="1.778" layer="95" align="bottom-right"/>
+<label x="5.08" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A+/GREEN" class="0">
@@ -11404,7 +11404,7 @@ NC_3</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="P1"/>
 <wire x1="2.54" y1="88.9" x2="5.08" y2="88.9" width="0.1524" layer="91"/>
-<label x="40.64" y="88.9" size="1.778" layer="95" align="bottom-right"/>
+<label x="5.08" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="YELLOW/SHIELD" class="0">
