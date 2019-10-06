@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10472,7 +10472,7 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="125.222" y="66.04" size="1.778" layer="95" rot="R270"/>
 </instance>
 <instance part="JP8" gate="G$1" x="177.8" y="96.52" smashed="yes">
-<attribute name="VALUE" x="177.8" y="71.12" size="1.778" layer="96"/>
+<attribute name="VALUE" x="180.34" y="71.12" size="1.778" layer="96"/>
 <attribute name="NAME" x="177.8" y="117.602" size="1.778" layer="95"/>
 </instance>
 <instance part="JP9" gate="G$1" x="177.8" y="93.98" smashed="yes" rot="R180">
@@ -10677,28 +10677,28 @@ Source: www.kingbright.com</description>
 <pinref part="JP7" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="VOUT_PRESSURE_1" class="0">
+<net name="VOUT_PRESSURE_FUEL" class="0">
 <segment>
 <wire x1="109.22" y1="53.34" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
 <label x="109.22" y="30.226" size="1.778" layer="95" rot="R90"/>
 <pinref part="JP7" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="VOUT_PRESSURE_2" class="0">
+<net name="VOUT_PRESSURE_OX" class="0">
 <segment>
 <wire x1="111.76" y1="53.34" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
 <label x="111.76" y="30.226" size="1.778" layer="95" rot="R90"/>
 <pinref part="JP7" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="VOUT_TEMPERATURE_1" class="0">
+<net name="VOUT_TEMPERATURE_OUT" class="0">
 <segment>
 <wire x1="114.3" y1="53.34" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
 <label x="114.3" y="25.146" size="1.778" layer="95" rot="R90"/>
 <pinref part="JP7" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="VOUT_TEMPERATURE_2" class="0">
+<net name="VOUT_TEMPERATURE_IN" class="0">
 <segment>
 <wire x1="116.84" y1="53.34" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
 <label x="116.84" y="25.146" size="1.778" layer="95" rot="R90"/>
@@ -10901,7 +10901,7 @@ Source: www.kingbright.com</description>
 <pinref part="JP5" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="MAXCLK" class="0">
+<net name="D22" class="0">
 <segment>
 <wire x1="165.1" y1="114.3" x2="167.64" y2="114.3" width="0.1524" layer="91"/>
 <label x="164.592" y="115.316" size="1.778" layer="95" rot="R180"/>
@@ -10922,7 +10922,7 @@ Source: www.kingbright.com</description>
 <pinref part="JP9" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAXDO" class="0">
+<net name="D50" class="0">
 <segment>
 <wire x1="165.1" y1="78.74" x2="167.64" y2="78.74" width="0.1524" layer="91"/>
 <label x="164.592" y="80.01" size="1.778" layer="95" rot="R180"/>
@@ -10936,7 +10936,7 @@ Source: www.kingbright.com</description>
 <label x="190.5" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MAXCS1" class="0">
+<net name="D52" class="0">
 <segment>
 <wire x1="165.1" y1="76.2" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
 <label x="164.592" y="77.724" size="1.778" layer="95" rot="R180"/>
@@ -11018,7 +11018,7 @@ Source: www.kingbright.com</description>
 <wire x1="43.18" y1="96.52" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TEMP2_LED" class="0">
+<net name="TEMP_IN_LED" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -11042,7 +11042,7 @@ Source: www.kingbright.com</description>
 <pinref part="JP9" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="PRESSURE1_LED" class="0">
+<net name="PRESSURE_FUEL_LED" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
@@ -11073,7 +11073,7 @@ Source: www.kingbright.com</description>
 <pinref part="JP9" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="TEMP1_LED" class="0">
+<net name="TEMP_OUT_LED" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="88.9" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
@@ -11085,7 +11085,7 @@ Source: www.kingbright.com</description>
 <pinref part="JP9" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="PRESSURE2_LED" class="0">
+<net name="PRESSURE_OX_LED" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="104.14" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
@@ -11482,28 +11482,28 @@ NC_3</text>
 <label x="129.54" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VOUT_TEMPERATURE_1" class="0">
+<net name="VOUT_TEMPERATURE_OUT" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="P2"/>
 <wire x1="58.42" y1="68.58" x2="99.06" y2="68.58" width="0.1524" layer="91"/>
 <label x="96.52" y="68.58" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="VOUT_TEMPERATURE_2" class="0">
+<net name="VOUT_TEMPERATURE_IN" class="0">
 <segment>
 <pinref part="J7" gate="G$1" pin="P2"/>
 <wire x1="58.42" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
 <label x="96.52" y="48.26" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="VOUT_PRESSURE_1" class="0">
+<net name="VOUT_PRESSURE_FUEL" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="P2"/>
 <wire x1="58.42" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
 <label x="91.44" y="25.4" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="VOUT_PRESSURE_2" class="0">
+<net name="VOUT_PRESSURE_OX" class="0">
 <segment>
 <pinref part="J9" gate="G$1" pin="P2"/>
 <wire x1="58.42" y1="5.08" x2="93.98" y2="5.08" width="0.1524" layer="91"/>
