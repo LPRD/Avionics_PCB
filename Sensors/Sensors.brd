@@ -310,13 +310,13 @@ Lucas Kramer and others</text>
 <text x="9.271" y="7.7216" size="1.016" layer="21">2019 REV 2.0</text>
 <text x="59.2201" y="36.8427" size="1.778" layer="21">Load Cell</text>
 <text x="59.1058" y="29.9847" size="1.778" layer="21">Press Fuel</text>
-<text x="48.8569" y="32.1818" size="1.778" layer="21" rot="R90">Press 1</text>
+<text x="49.0347" y="30.3022" size="1.778" layer="21" rot="R90">Press Fuel</text>
 <text x="59.0423" y="26.2636" size="1.778" layer="21">Press Ox</text>
-<text x="40.0304" y="31.9913" size="1.778" layer="21" rot="R90">Press 2</text>
+<text x="39.9796" y="30.607" size="1.778" layer="21" rot="R90">Press Ox</text>
 <text x="58.9788" y="22.4409" size="1.778" layer="21">Temp Out</text>
-<text x="48.9458" y="15.1638" size="1.778" layer="21" rot="R90">Temp 1</text>
+<text x="49.0728" y="13.8557" size="1.778" layer="21" rot="R90">Temp Out</text>
 <text x="58.9534" y="18.8214" size="1.778" layer="21">Temp In</text>
-<text x="39.8526" y="14.9987" size="1.778" layer="21" rot="R90">Temp 2</text>
+<text x="39.9034" y="14.5923" size="1.778" layer="21" rot="R90">Temp In</text>
 <text x="59.0931" y="15.2273" size="1.778" layer="21">Status</text>
 <text x="59.1185" y="11.0998" size="1.778" layer="21">State</text>
 <text x="14.5034" y="34.5313" size="1.778" layer="21">Load Cell
@@ -9997,25 +9997,26 @@ These are the design rules for the Othermill Pro in ME 2-134.</description>
 <wire x1="51.054" y1="20.32" x2="42.418" y2="20.32" width="0.254" layer="1"/>
 <wire x1="42.418" y1="20.32" x2="42.3291" y2="20.3835" width="0.254" layer="1"/>
 <wire x1="51.054" y1="20.32" x2="51.1556" y2="20.4089" width="0.254" layer="1"/>
-<wire x1="20.5232" y1="19.2659" x2="20.4089" y2="19.1516" width="0.254" layer="1"/>
-<wire x1="20.4089" y1="19.1516" x2="5.26415" y2="4.00685" width="0.254" layer="1"/>
 <wire x1="5.26415" y1="4.00685" x2="5.1943" y2="3.9497" width="0.254" layer="1"/>
-<wire x1="38.1" y1="3.048" x2="38.1" y2="2.54" width="0.254" layer="1"/>
-<wire x1="31.2928" y1="9.906" x2="21.3233" y2="19.8755" width="0.254" layer="1"/>
-<wire x1="31.242" y1="9.906" x2="38.1" y2="3.048" width="0.254" layer="1"/>
-<wire x1="31.75" y1="9.906" x2="42.164" y2="20.32" width="0.254" layer="1"/>
-<wire x1="31.242" y1="9.906" x2="31.2928" y2="9.906" width="0.254" layer="1"/>
-<wire x1="31.2928" y1="9.906" x2="31.75" y2="9.906" width="0.254" layer="1"/>
-<wire x1="42.164" y1="20.32" x2="42.3291" y2="20.3835" width="0.254" layer="1"/>
 <wire x1="42.164" y1="37.084" x2="42.3037" y2="37.1348" width="0.254" layer="1"/>
 <wire x1="30.988" y1="42.418" x2="31.0007" y2="42.5323" width="0.254" layer="16"/>
-<wire x1="42.164" y1="37.084" x2="38.5318" y2="37.084" width="0.254" layer="1"/>
-<wire x1="38.5318" y1="37.084" x2="33.909" y2="37.084" width="0.254" layer="1"/>
+<wire x1="42.164" y1="37.084" x2="39.878" y2="37.084" width="0.254" layer="1"/>
+<wire x1="39.878" y1="37.084" x2="33.909" y2="37.084" width="0.254" layer="1"/>
 <wire x1="33.909" y1="37.084" x2="31.0007" y2="39.9923" width="0.254" layer="1"/>
 <wire x1="31.0007" y1="39.9923" x2="31.0007" y2="42.5323" width="0.254" layer="1"/>
-<wire x1="51.1556" y1="20.4089" x2="51.054" y2="37.084" width="0" layer="19" extent="1-1"/>
-<wire x1="20.4089" y1="19.1516" x2="21.3233" y2="19.8755" width="0" layer="19" extent="1-1"/>
-<wire x1="20.4089" y1="19.1516" x2="20.4089" y2="19.1516" width="0.254" layer="1"/>
+<wire x1="38.1" y1="16.256" x2="38.1" y2="5.334" width="0.254" layer="1"/>
+<wire x1="38.1" y1="5.334" x2="38.1" y2="3.048" width="0.254" layer="1"/>
+<wire x1="42.164" y1="20.32" x2="38.1" y2="16.256" width="0.254" layer="1"/>
+<wire x1="38.1" y1="3.048" x2="38.1" y2="2.54" width="0.254" layer="1"/>
+<wire x1="42.164" y1="20.32" x2="42.3291" y2="20.3835" width="0.254" layer="1"/>
+<wire x1="12.7" y1="4.064" x2="5.334" y2="4.064" width="0.254" layer="1"/>
+<wire x1="13.97" y1="5.334" x2="12.7" y2="4.064" width="0.254" layer="1"/>
+<wire x1="38.1" y1="5.334" x2="13.97" y2="5.334" width="0.254" layer="1"/>
+<wire x1="5.334" y1="4.064" x2="5.1943" y2="3.9497" width="0.254" layer="1"/>
+<wire x1="42.164" y1="21.336" x2="42.164" y2="20.574" width="0.254" layer="1"/>
+<wire x1="39.878" y1="23.622" x2="42.164" y2="21.336" width="0.254" layer="1"/>
+<wire x1="39.878" y1="37.084" x2="39.878" y2="23.622" width="0.254" layer="1"/>
+<wire x1="42.164" y1="20.574" x2="42.3291" y2="20.3835" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="JP10" pad="4"/>
@@ -10266,10 +10267,8 @@ These are the design rules for the Othermill Pro in ME 2-134.</description>
 <signal name="VOUT_PRESSURE_FUEL">
 <contactref element="JP7" pad="3"/>
 <contactref element="J8" pad="P$2"/>
-<wire x1="52.07" y1="33.782" x2="51.308" y2="34.544" width="0.254" layer="1"/>
-<wire x1="52.324" y1="33.782" x2="52.07" y2="33.782" width="0.254" layer="1"/>
-<wire x1="54.8259" y1="31.2801" x2="52.324" y2="33.782" width="0.254" layer="1"/>
-<wire x1="54.8259" y1="31.2801" x2="54.8259" y2="7.1501" width="0.254" layer="1"/>
+<wire x1="54.8259" y1="31.0261" x2="51.308" y2="34.544" width="0.254" layer="1"/>
+<wire x1="54.8259" y1="31.0261" x2="54.8259" y2="7.1501" width="0.254" layer="1"/>
 <wire x1="54.864" y1="7.112" x2="54.8259" y2="7.1501" width="0.254" layer="1"/>
 <wire x1="54.864" y1="4.318" x2="54.864" y2="7.112" width="0.254" layer="16"/>
 <wire x1="55.88" y1="3.302" x2="54.864" y2="4.318" width="0.254" layer="16"/>
