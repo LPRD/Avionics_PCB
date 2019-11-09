@@ -307,7 +307,7 @@
 <hole x="96.52" y="2.54" drill="3.2"/>
 <text x="7.747" y="9.6647" size="1.524" layer="21" font="vector" ratio="15">LPRD Sensors Board
 Lucas Kramer, Paul Wehling and others</text>
-<text x="7.7724" y="7.7089" size="1.016" layer="21" font="vector" ratio="15">2019 REV 2.0</text>
+<text x="7.7724" y="7.7089" size="1.016" layer="21" font="vector" ratio="15">2019 REV 2.1</text>
 <text x="56.0705" y="36.7284" size="1.778" layer="21" font="vector" ratio="15">Load Cell</text>
 <text x="55.9816" y="29.6926" size="1.778" layer="21" font="vector" ratio="15">Press Fuel</text>
 <text x="48.7045" y="29.1338" size="1.778" layer="21" font="vector" ratio="15" rot="R90">Press Fuel</text>
