@@ -10223,7 +10223,7 @@ These are the design rules for the Othermill Pro in ME 2-134.</description>
 <signal name="YELLOW/SHIELD">
 <contactref element="J3" pad="1"/>
 </signal>
-<signal name="VOUT_PRESSURE_FUEL">
+<signal name="VOUT_PRESSURE_OX">
 <contactref element="JP7" pad="4"/>
 <contactref element="J9" pad="P$2"/>
 <wire x1="53.848" y1="9.398" x2="53.848" y2="23.749" width="0.254" layer="1"/>
@@ -10236,7 +10236,7 @@ These are the design rules for the Othermill Pro in ME 2-134.</description>
 <wire x1="43.2054" y1="34.5948" x2="53.848" y2="23.9522" width="0.254" layer="1"/>
 <wire x1="53.848" y1="23.9522" x2="53.848" y2="23.9395" width="0.254" layer="1"/>
 </signal>
-<signal name="VOUT_PRESSURE_OX">
+<signal name="VOUT_PRESSURE_FUEL">
 <contactref element="JP7" pad="3"/>
 <contactref element="J8" pad="P$2"/>
 <wire x1="54.8259" y1="31.0261" x2="52.5653" y2="33.2867" width="0.254" layer="1"/>

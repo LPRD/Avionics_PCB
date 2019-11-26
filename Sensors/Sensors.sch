@@ -10677,14 +10677,14 @@ Source: www.kingbright.com</description>
 <pinref part="JP7" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="VOUT_PRESSURE_OX" class="0">
+<net name="VOUT_PRESSURE_FUEL" class="0">
 <segment>
 <wire x1="109.22" y1="53.34" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
 <label x="109.22" y="25.146" size="1.778" layer="95" rot="R90"/>
 <pinref part="JP7" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="VOUT_PRESSURE_FUEL" class="0">
+<net name="VOUT_PRESSURE_OX" class="0">
 <segment>
 <wire x1="111.76" y1="53.34" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
 <label x="111.76" y="25.146" size="1.778" layer="95" rot="R90"/>
@@ -11496,14 +11496,14 @@ NC_3</text>
 <label x="96.52" y="48.26" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="VOUT_PRESSURE_OX" class="0">
+<net name="VOUT_PRESSURE_FUEL" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="P2"/>
 <wire x1="58.42" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
 <label x="91.44" y="25.4" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="VOUT_PRESSURE_FUEL" class="0">
+<net name="VOUT_PRESSURE_OX" class="0">
 <segment>
 <pinref part="J9" gate="G$1" pin="P2"/>
 <wire x1="58.42" y1="5.08" x2="93.98" y2="5.08" width="0.1524" layer="91"/>
