@@ -308,17 +308,17 @@
 <text x="7.747" y="9.6647" size="1.9304" layer="21" font="vector" ratio="15">LPRD Sensors Board
 Lucas Kramer, Paul Wehling and others</text>
 <text x="7.7724" y="7.7089" size="1.016" layer="21" font="vector" ratio="15">2020 REV 3.0</text>
-<text x="48.7553" y="31.2039" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Press Fuel</text>
-<text x="48.8061" y="14.986" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Press Ox</text>
-<text x="40.5003" y="31.4579" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Temp Out</text>
-<text x="40.1955" y="15.5829" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Temp In</text>
+<text x="48.1457" y="30.3911" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Press Fuel</text>
+<text x="48.4632" y="14.8209" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Press Ox</text>
+<text x="40.2717" y="31.4579" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Temp Out</text>
+<text x="39.7764" y="15.5829" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Temp In</text>
 <text x="23.6474" y="35.2806" size="1.778" layer="21" font="vector" ratio="15" align="bottom-center">Load Cell
 Amp</text>
 <text x="2.8702" y="34.0868" size="1.778" layer="21" font="vector" ratio="15" rot="R90">Load Cell</text>
 <text x="2.7432" y="4.9022" size="1.778" layer="21" font="vector" ratio="15" rot="R90">Accelerometer</text>
-<text x="57.5183" y="29.2354" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Press Fuel Inj</text>
-<text x="57.658" y="12.7" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Press Ox Inj</text>
-<text x="12.5476" y="21.6916" size="1.4224" layer="21" font="vector" ratio="15" rot="R90">LCD</text>
+<text x="57.0992" y="29.2354" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Press Fuel Inj</text>
+<text x="57.3913" y="12.6365" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Press Ox Inj</text>
+<text x="12.6111" y="20.9423" size="1.4224" layer="21" font="vector" ratio="15" rot="R90">LCD</text>
 <text x="66.7639" y="12.7381" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Thermocouple Amplifiers</text>
 </plain>
 <libraries>
@@ -8809,7 +8809,7 @@ These are the design rules for the Othermill Pro in ME 2-134.</description>
 <element name="J2" library="LPRD_RELAY" package="B4B-XH-A(LF)(SN)" value="JST_CONNECTOR" x="5.7785" y="40.4495" smashed="yes" rot="R90"/>
 <element name="J5" library="LPRD_RELAY" package="B4B-XH-A(LF)(SN)" value="JST_CONNECTOR" x="60.5282" y="37.211" smashed="yes" rot="R90"/>
 <element name="J10" library="LPRD_RELAY" package="B4B-XH-A(LF)(SN)" value="JST_CONNECTOR" x="60.5028" y="20.3454" smashed="yes" rot="R90"/>
-<element name="J11" library="LPRD_RELAY" package="B4B-XH-A(LF)(SN)" value="JST_CONNECTOR" x="15.5067" y="24.638" smashed="yes" rot="R90"/>
+<element name="J11" library="LPRD_RELAY" package="B4B-XH-A(LF)(SN)" value="JST_CONNECTOR" x="15.3797" y="24.2062" smashed="yes" rot="R90"/>
 <element name="J12" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X06" package3d_urn="urn:adsk.eagle:package:38009/1" value="" x="69.4182" y="35.6743" smashed="yes">
 <attribute name="NAME" x="68.1482" y="37.0713" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-08437" x="69.4182" y="35.6743" size="1.778" layer="27" display="off"/>
@@ -8869,19 +8869,17 @@ These are the design rules for the Othermill Pro in ME 2-134.</description>
 <wire x1="82.042" y1="30.48" x2="82.042" y2="35.56" width="0.254" layer="1"/>
 <wire x1="82.042" y1="35.56" x2="82.1182" y2="35.6743" width="0.254" layer="1"/>
 <wire x1="82.042" y1="30.48" x2="82.1436" y2="30.3657" width="0.254" layer="1"/>
-<wire x1="93.726" y1="49.784" x2="93.726" y2="50.8" width="0.254" layer="16"/>
-<wire x1="82.296" y1="38.354" x2="93.726" y2="49.784" width="0.254" layer="16"/>
-<wire x1="82.296" y1="35.814" x2="82.296" y2="38.354" width="0.254" layer="16"/>
+<wire x1="93.726" y1="50.3682" x2="93.726" y2="50.8" width="0.254" layer="16"/>
+<wire x1="82.296" y1="38.9382" x2="93.726" y2="50.3682" width="0.254" layer="16"/>
+<wire x1="82.296" y1="35.814" x2="82.296" y2="38.9382" width="0.254" layer="16"/>
 <wire x1="93.726" y1="50.8" x2="93.98" y2="50.8" width="0.254" layer="16"/>
 <wire x1="82.296" y1="35.814" x2="82.1182" y2="35.6743" width="0.254" layer="16"/>
 <wire x1="82.042" y1="24.384" x2="82.042" y2="18.542" width="0.254" layer="1"/>
 <wire x1="82.042" y1="18.542" x2="82.0166" y2="18.4658" width="0.254" layer="1"/>
 <wire x1="82.042" y1="24.384" x2="82.0801" y2="24.5618" width="0.254" layer="1"/>
-<wire x1="15.748" y1="23.622" x2="15.748" y2="24.638" width="0.254" layer="1"/>
-<wire x1="16.764" y1="22.606" x2="15.748" y2="23.622" width="0.254" layer="1"/>
-<wire x1="16.764" y1="15.494" x2="16.764" y2="22.606" width="0.254" layer="1"/>
+<wire x1="16.764" y1="15.494" x2="16.764" y2="24.2062" width="0.254" layer="1"/>
 <wire x1="5.334" y1="4.064" x2="16.764" y2="15.494" width="0.254" layer="1"/>
-<wire x1="15.748" y1="24.638" x2="15.5067" y2="24.638" width="0.254" layer="1"/>
+<wire x1="16.764" y1="24.2062" x2="15.3797" y2="24.2062" width="0.254" layer="1"/>
 <wire x1="5.334" y1="4.064" x2="5.1943" y2="3.9497" width="0.254" layer="1"/>
 <wire x1="60.452" y1="37.084" x2="56.388" y2="37.084" width="0.254" layer="1"/>
 <wire x1="56.388" y1="37.084" x2="52.07" y2="37.084" width="0.254" layer="1"/>
@@ -9058,36 +9056,34 @@ These are the design rules for the Othermill Pro in ME 2-134.</description>
 <contactref element="JP5" pad="2"/>
 <contactref element="J11" pad="P$1"/>
 <contactref element="J1" pad="2"/>
-<wire x1="5.588" y1="19.558" x2="15.5067" y2="19.558" width="0.254" layer="1"/>
-<wire x1="5.334" y1="19.304" x2="5.588" y2="19.558" width="0.254" layer="1"/>
-<wire x1="5.334" y1="19.304" x2="5.1943" y2="19.1897" width="0.254" layer="1"/>
+<wire x1="15.3797" y1="19.1262" x2="5.2578" y2="19.1262" width="0.254" layer="1"/>
+<wire x1="5.1943" y1="19.1897" x2="5.2578" y2="19.1262" width="0.254" layer="1"/>
 <wire x1="71.374" y1="38.354" x2="83.82" y2="50.8" width="0.254" layer="16"/>
 <wire x1="68.3641" y1="38.354" x2="71.374" y2="38.354" width="0.254" layer="16"/>
 <wire x1="55.8038" y1="25.7937" x2="68.3641" y2="38.354" width="0.254" layer="16"/>
-<wire x1="15.5067" y1="19.558" x2="15.5702" y2="19.4945" width="0.254" layer="16"/>
-<wire x1="16.3449" y1="19.4945" x2="15.5702" y2="19.4945" width="0.254" layer="16"/>
-<wire x1="22.6441" y1="25.7937" x2="16.3449" y2="19.4945" width="0.254" layer="16"/>
 <wire x1="55.8038" y1="25.7937" x2="22.6441" y2="25.7937" width="0.254" layer="16"/>
 <wire x1="83.82" y1="50.8" x2="83.8962" y2="50.7111" width="0.254" layer="16"/>
+<wire x1="22.6441" y1="25.7937" x2="15.9766" y2="19.1262" width="0.254" layer="16"/>
+<wire x1="15.9766" y1="19.1262" x2="15.3797" y2="19.1262" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL">
 <contactref element="JP5" pad="1"/>
 <contactref element="J11" pad="P$2"/>
 <contactref element="J1" pad="3"/>
-<wire x1="10.668" y1="22.098" x2="14.224" y2="22.098" width="0.254" layer="16"/>
-<wire x1="14.224" y1="22.098" x2="15.5067" y2="22.098" width="0.254" layer="16"/>
-<wire x1="5.334" y1="16.764" x2="10.668" y2="22.098" width="0.254" layer="16"/>
 <wire x1="5.334" y1="16.764" x2="5.1943" y2="16.6497" width="0.254" layer="16"/>
-<wire x1="85.598" y1="50.546" x2="86.36" y2="50.546" width="0.254" layer="16"/>
-<wire x1="72.6694" y1="37.6174" x2="85.598" y2="50.546" width="0.254" layer="16"/>
-<wire x1="68.6054" y1="37.6174" x2="72.6694" y2="37.6174" width="0.254" layer="16"/>
+<wire x1="86.3219" y1="50.546" x2="86.36" y2="50.546" width="0.254" layer="16"/>
+<wire x1="73.3933" y1="37.6174" x2="86.3219" y2="50.546" width="0.254" layer="16"/>
+<wire x1="68.6054" y1="37.6174" x2="73.3933" y2="37.6174" width="0.254" layer="16"/>
 <wire x1="56.1721" y1="25.1841" x2="68.6054" y2="37.6174" width="0.254" layer="16"/>
-<wire x1="22.86" y1="25.1841" x2="56.1721" y2="25.1841" width="0.254" layer="16"/>
-<wire x1="15.9639" y1="18.288" x2="22.86" y2="25.1841" width="0.254" layer="16"/>
-<wire x1="14.986" y1="18.288" x2="15.9639" y2="18.288" width="0.254" layer="16"/>
-<wire x1="14.224" y1="19.05" x2="14.986" y2="18.288" width="0.254" layer="16"/>
-<wire x1="14.224" y1="22.098" x2="14.224" y2="19.05" width="0.254" layer="16"/>
+<wire x1="23.042746875" y1="25.1841" x2="56.1721" y2="25.1841" width="0.254" layer="16"/>
 <wire x1="86.36" y1="50.546" x2="86.4362" y2="50.7111" width="0.254" layer="16"/>
+<wire x1="15.3797" y1="21.6662" x2="10.2362" y2="21.6662" width="0.254" layer="16"/>
+<wire x1="10.2362" y1="21.6662" x2="5.334" y2="16.764" width="0.254" layer="16"/>
+<wire x1="23.042746875" y1="25.1841" x2="15.849846875" y2="17.9912" width="0.254" layer="16"/>
+<wire x1="15.849846875" y1="17.9912" x2="14.909553125" y2="17.9912" width="0.254" layer="16"/>
+<wire x1="14.909553125" y1="17.9912" x2="14.2447" y2="18.656053125" width="0.254" layer="16"/>
+<wire x1="14.2447" y1="18.656053125" x2="14.2447" y2="20.5312" width="0.254" layer="16"/>
+<wire x1="14.2447" y1="20.5312" x2="15.3797" y2="21.6662" width="0.254" layer="16"/>
 </signal>
 <signal name="D39">
 <contactref element="JP8" pad="8"/>
@@ -9363,9 +9359,9 @@ These are the design rules for the Othermill Pro in ME 2-134.</description>
 <signal name="THERMO_CS3">
 <contactref element="J14" pad="2"/>
 <contactref element="JP8" pad="4"/>
-<wire x1="96.774" y1="16.764" x2="96.774" y2="17.78" width="0.254" layer="16"/>
-<wire x1="98.552" y1="14.986" x2="96.774" y2="16.764" width="0.254" layer="16"/>
-<wire x1="98.552" y1="6.604" x2="98.552" y2="14.986" width="0.254" layer="16"/>
+<wire x1="96.774" y1="17.6911" x2="96.774" y2="17.78" width="0.254" layer="16"/>
+<wire x1="98.552" y1="15.9131" x2="96.774" y2="17.6911" width="0.254" layer="16"/>
+<wire x1="98.552" y1="6.604" x2="98.552" y2="15.9131" width="0.254" layer="16"/>
 <wire x1="97.536" y1="5.588" x2="98.552" y2="6.604" width="0.254" layer="16"/>
 <wire x1="74.168" y1="5.588" x2="97.536" y2="5.588" width="0.254" layer="16"/>
 <wire x1="61.722" y1="18.034" x2="74.168" y2="5.588" width="0.254" layer="16"/>
@@ -9398,8 +9394,8 @@ These are the design rules for the Othermill Pro in ME 2-134.</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="4,16,cfe52cd2c76b9320"/>
-<approved hash="4,1,cfe52cd2c76b9320"/>
+<approved hash="4,1,9e10aeb626ffb6be"/>
+<approved hash="4,16,9e10aeb626ffb6be"/>
 </errors>
 </board>
 </drawing>
