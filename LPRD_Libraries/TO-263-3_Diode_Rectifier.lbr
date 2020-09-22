@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="TO-263-3_PACKAGE_MIDDLE_PIN_REMOVED">
+<wire x1="-2.5146" y1="-5" x2="-3.4" y2="-5" width="0.127" layer="21"/>
+<wire x1="-3.4" y1="-5" x2="-3.4" y2="5" width="0.127" layer="21"/>
+<wire x1="-3.4" y1="5" x2="-2.5146" y2="5" width="0.127" layer="21"/>
+<text x="-0.19056875" y="6.830340625" size="1.27093125" layer="25">&gt;NAME</text>
+<text x="-0.190846875" y="-8.116009375" size="1.27068125" layer="27">&gt;VALUE</text>
+<circle x="-6.35" y="3.937" radius="0.127" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="6.35" x2="8.7" y2="6.35" width="0.05" layer="39"/>
+<wire x1="8.7" y1="6.35" x2="8.7" y2="-6.35" width="0.05" layer="39"/>
+<wire x1="8.7" y1="-6.35" x2="-1.55" y2="-6.35" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="-6.35" x2="-1.55" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="-5.25" x2="-3.65" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="-3.65" y1="-5.25" x2="-3.65" y2="-3.6" width="0.05" layer="39"/>
+<wire x1="-3.65" y1="-3.6" x2="-8.7" y2="-3.6" width="0.05" layer="39"/>
+<wire x1="-8.7" y1="-3.6" x2="-8.7" y2="3.6" width="0.05" layer="39"/>
+<wire x1="-8.7" y1="3.6" x2="-3.65" y2="3.6" width="0.05" layer="39"/>
+<wire x1="-3.65" y1="3.6" x2="-3.65" y2="5.25" width="0.05" layer="39"/>
+<wire x1="-3.65" y1="5.25" x2="-1.55" y2="5.25" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="5.25" x2="-1.55" y2="6.35" width="0.05" layer="39"/>
+<rectangle x1="5.84963125" y1="0.2954875" x2="7.22" y2="1.765" layer="31"/>
+<rectangle x1="5.843590625" y1="-1.76608125" x2="7.22" y2="-0.295" layer="31"/>
+<rectangle x1="3.87483125" y1="-1.7672" x2="5.25" y2="-0.295" layer="31" rot="R180"/>
+<rectangle x1="3.876459375" y1="0.295490625" x2="5.25" y2="1.765" layer="31" rot="R180"/>
+<rectangle x1="3.874090625" y1="2.3625" x2="5.25" y2="3.83" layer="31" rot="R180"/>
+<rectangle x1="5.84443125" y1="2.361790625" x2="7.22" y2="3.83" layer="31"/>
+<rectangle x1="3.876490625" y1="-3.83641875" x2="5.25" y2="-2.36" layer="31" rot="R180"/>
+<rectangle x1="5.850259375" y1="-3.83673125" x2="7.22" y2="-2.36" layer="31"/>
+<rectangle x1="-0.0700625" y1="-1.766559375" x2="1.31" y2="-0.295" layer="31" rot="R180"/>
+<rectangle x1="-0.070140625" y1="0.295590625" x2="1.31" y2="1.765" layer="31" rot="R180"/>
+<rectangle x1="1.90233125" y1="0.2953625" x2="3.28" y2="1.765" layer="31"/>
+<rectangle x1="1.901559375" y1="-1.76645" x2="3.28" y2="-0.295" layer="31"/>
+<rectangle x1="1.90233125" y1="-3.8347" x2="3.28" y2="-2.36" layer="31"/>
+<rectangle x1="-0.070071875" y1="-3.83386875" x2="1.31" y2="-2.36" layer="31" rot="R180"/>
+<rectangle x1="1.901309375" y1="2.36163125" x2="3.28" y2="3.83" layer="31"/>
+<rectangle x1="-0.070046875" y1="2.361559375" x2="1.31" y2="3.83" layer="31" rot="R180"/>
+<wire x1="-3.4" y1="5" x2="7.4" y2="5" width="0.127" layer="51"/>
+<wire x1="7.4" y1="5" x2="7.4" y2="-5" width="0.127" layer="51"/>
+<wire x1="7.4" y1="-5" x2="-3.4" y2="-5" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="-5" x2="-3.4" y2="5" width="0.127" layer="51"/>
+<rectangle x1="-8.21543125" y1="2.09393125" x2="-3.4" y2="2.99" layer="51"/>
+<rectangle x1="-8.215909375" y1="-2.9958" x2="-3.4" y2="-2.09" layer="51"/>
+<smd name="4" x="3.575" y="0" dx="12.2" dy="9.75" layer="1" rot="R270" cream="no"/>
+<smd name="1" x="-6.7" y="2.54" dx="1.6" dy="3.5" layer="1" rot="R270"/>
+<smd name="3" x="-6.7" y="-2.54" dx="1.6" dy="3.5" layer="1" rot="R270"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TO-263-3_NO_MID_PIN">
+<pin name="D1" x="2.54" y="0" length="middle" rot="R90"/>
+<pin name="D2" x="12.7" y="0" length="middle" rot="R90"/>
+<wire x1="0" y1="5.08" x2="15.24" y2="5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="5.08" width="0.254" layer="94"/>
+<pin name="OUT" x="7.62" y="20.32" length="middle" rot="R270"/>
+<text x="17.78" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="17.78" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STPS30170CG-TR_2_DIODES">
+<gates>
+<gate name="G$1" symbol="TO-263-3_NO_MID_PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-263-3_PACKAGE_MIDDLE_PIN_REMOVED">
+<connects>
+<connect gate="G$1" pin="D1" pad="1"/>
+<connect gate="G$1" pin="D2" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
