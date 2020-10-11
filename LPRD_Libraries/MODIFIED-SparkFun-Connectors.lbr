@@ -37504,8 +37504,8 @@ Alternate pin configuration
 <wire x1="7.74" y1="-1.135" x2="7.74" y2="1.135" width="0.127" layer="21"/>
 <wire x1="7.74" y1="1.135" x2="6.35" y2="2.525" width="0.127" layer="21"/>
 <wire x1="6.35" y1="2.525" x2="-2.66" y2="2.525" width="0.127" layer="21"/>
-<pad name="+" x="0" y="0" drill="3.35" diameter="4.5"/>
-<pad name="-" x="5" y="0" drill="3.35" diameter="4.5"/>
+<pad name="+" x="0" y="0" drill="2.6" diameter="4.2"/>
+<pad name="-" x="5" y="0" drill="2.6" diameter="4.2"/>
 <text x="-1.27" y="2.667" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>

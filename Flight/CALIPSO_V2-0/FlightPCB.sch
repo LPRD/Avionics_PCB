@@ -186,9 +186,9 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="Teensy4-1">
+<library name="Teensy4-1" urn="urn:adsk.eagle:library:23572574">
 <packages>
-<package name="TEENSY_4.1">
+<package name="TEENSY_4.1" urn="urn:adsk.eagle:footprint:23572576/1" library_version="2">
 <description>Teensy 4.1 Microcontroller:
 https://www.pjrc.com/teensy/pinout.html</description>
 <pad name="1/TX1/MISO1/CTX2*" x="-22.86" y="-7.62" drill="0.9652"/>
@@ -379,8 +379,6 @@ https://www.pjrc.com/teensy/pinout.html</description>
 <wire x1="-25.4" y1="1.27" x2="-24.13" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-25.4" y1="-0.635" x2="-24.13" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="-25.4" y1="-1.27" x2="-24.13" y2="-1.27" width="0.127" layer="21"/>
-<text x="0.15875" y="0" size="1.778" layer="21" ratio="12" distance="25" align="center">TEENSY
-4.1</text>
 <wire x1="19.05" y1="5.08" x2="21.336" y2="5.08" width="0.3048" layer="21"/>
 <wire x1="21.336" y1="5.08" x2="21.59" y2="5.334" width="0.3048" layer="21" curve="90"/>
 <wire x1="21.59" y1="5.334" x2="21.59" y2="6.35" width="0.3048" layer="21"/>
@@ -487,13 +485,25 @@ https://www.pjrc.com/teensy/pinout.html</description>
 <wire x1="-26.67" y1="-3.175" x2="-26.204921875" y2="-3.175" width="0.127" layer="21"/>
 <wire x1="-26.204921875" y1="-3.175" x2="-25.94074375" y2="-3.033615625" width="0.127" layer="21" curve="56.310402"/>
 <wire x1="-25.94074375" y1="-3.033615625" x2="-25.4" y2="-2.2225" width="0.127" layer="21"/>
+<text x="0.15875" y="0" size="1.778" layer="21" ratio="12" distance="25" align="center">TEENSY
+4.1</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="TEENSY_4.1" urn="urn:adsk.eagle:package:23572580/2" type="model" library_version="2">
+<description>Teensy 4.1 Microcontroller:
+https://www.pjrc.com/teensy/pinout.html</description>
+<packageinstances>
+<packageinstance name="TEENSY_4.1"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="TEENSY_4.1">
+<symbol name="TEENSY_4.1" urn="urn:adsk.eagle:symbol:23572578/1" library_version="2">
 <wire x1="-15.24" y1="25.4" x2="22.86" y2="25.4" width="0.254" layer="94"/>
 <wire x1="22.86" y1="25.4" x2="22.86" y2="-58.42" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="25.4" x2="-15.24" y2="-58.42" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-58.42" x2="22.86" y2="-58.42" width="0.254" layer="94"/>
 <pin name="1/TX1/MISO1/CTX2*" x="-20.32" y="7.62" visible="pin" length="middle"/>
 <pin name="2*" x="-20.32" y="5.08" visible="pin" length="middle"/>
 <pin name="3*" x="-20.32" y="2.54" visible="pin" length="middle"/>
@@ -518,7 +528,6 @@ https://www.pjrc.com/teensy/pinout.html</description>
 <pin name="31/CTX3" x="-20.32" y="-43.18" visible="pin" length="middle"/>
 <pin name="32" x="-20.32" y="-45.72" visible="pin" length="middle"/>
 <pin name="GND" x="-20.32" y="12.7" visible="pin" length="middle"/>
-<wire x1="-15.24" y1="-58.42" x2="22.86" y2="-58.42" width="0.254" layer="94"/>
 <pin name="VIN" x="27.94" y="12.7" visible="pin" length="middle" rot="R180"/>
 <pin name="GND4" x="27.94" y="10.16" visible="pin" length="middle" rot="R180"/>
 <pin name="3V3_250MA" x="27.94" y="7.62" visible="pin" length="middle" rot="R180"/>
@@ -557,7 +566,7 @@ https://www.pjrc.com/teensy/pinout.html</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TEENSY_4.1">
+<deviceset name="TEENSY_4.1" urn="urn:adsk.eagle:component:23572582/2" library_version="2">
 <gates>
 <gate name="G$1" symbol="TEENSY_4.1" x="0" y="15.24"/>
 </gates>
@@ -624,6 +633,9 @@ https://www.pjrc.com/teensy/pinout.html</description>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 <connect gate="G$1" pin="VUSB" pad="VUSB"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23572580/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -2002,8 +2014,8 @@ Holes are offset 0.005" from center, to hold pins in place while soldering.
 <wire x1="7.74" y1="-1.135" x2="7.74" y2="1.135" width="0.127" layer="21"/>
 <wire x1="7.74" y1="1.135" x2="6.35" y2="2.525" width="0.127" layer="21"/>
 <wire x1="6.35" y1="2.525" x2="-2.66" y2="2.525" width="0.127" layer="21"/>
-<pad name="+" x="0" y="0" drill="3.35" diameter="4.5"/>
-<pad name="-" x="5" y="0" drill="3.35" diameter="4.5"/>
+<pad name="+" x="0" y="0" drill="2.6" diameter="4.2"/>
+<pad name="-" x="5" y="0" drill="2.6" diameter="4.2"/>
 <text x="-1.27" y="2.667" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
@@ -9439,7 +9451,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="TEENSY_4.1" library="Teensy4-1" deviceset="TEENSY_4.1" device=""/>
+<part name="TEENSY_4.1" library="Teensy4-1" library_urn="urn:adsk.eagle:library:23572574" deviceset="TEENSY_4.1" device="" package3d_urn="urn:adsk.eagle:package:23572580/2"/>
 <part name="BMP388" library="MODIFIED-SparkFun-Connectors" deviceset="CONN_08_BMP388_MODIFIED" device="FEMALE_LOCK" value="Pressure Sensor"/>
 <part name="T4.1_L" library="MODIFIED-SparkFun-Connectors" deviceset="CONN_24" device="LOCK" value="24p"/>
 <part name="T4.1_R" library="MODIFIED-SparkFun-Connectors" deviceset="CONN_24" device="LOCK" value="24p"/>
@@ -11353,6 +11365,11 @@ with this version.
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
