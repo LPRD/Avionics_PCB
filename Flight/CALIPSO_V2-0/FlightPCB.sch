@@ -9550,8 +9550,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="VCC_2" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="VCC_2" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="VCC_2" device=""/>
-<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_4MM"/>
-<part name="LOGO2" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_4MM"/>
+<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_CONNECTOR" value="QWIIC_LOGO_CONNECTOR"/>
+<part name="LOGO2" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_CONNECTOR" value="QWIIC_LOGO_CONNECTOR"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="20KOHM" device="-0603-1/10W-1%" value="20k"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="20KOHM" device="-0603-1/10W-1%" value="20k"/>
